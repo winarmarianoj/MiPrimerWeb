@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap');
+
+html{font-family: 'Lato', sans-serif;}
+
+nav{
+	background-color:black;
+	color:white;}
+
+nav ul a, nav .brand-logo{
+	color:white;
+	font-size: 20px;
+}
+nav ul a:hover{
+	color: greenyellow;}
+
+h1{
+	text-align: center;
+	font-size: 100px;
+	color:white;
+	font-weight: 900;
+	margin-top:150px;
+	text-shadow: 5px 5px 10px black;}
+
+#inicio h3{
+	text-shadow: 2px 2px 5px black;
+}
+
+h4{
+	font-size: 20px;
+	font-weight: 900;}
+
+h2{
+	color:white;
+	text-shadow: 2px 2px 5px black;
+	text-align: center;
+	margin-top: 10%;
+	width:100%;}
+
+span{
+	font-size: 20px;
+	font-weight: 300;}	
+
+h5{
+	font-size: 24px;}
+
+h6{
+	font-size: 14px;
+	font-weight: 900;}
+
+.txt-center{
+	text-align: center;
+}
+.parrafo {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 300;}
+
+i.small {
+		color:white;
+		vertical-align: bottom;}
+
+div.parallax-container{
+	min-height: 50vh;
+	max-height:60vh; 
+}
+
+#inicio div.container{
+	padding-top: 20px;
+	min-height:40vh; 
+}
+
+#lacantina div.parallax-container{
+	min-height:50vh;
+}
+div.circulo i{
+	height: auto;
+	color:white;
+	background-color: rgba(255, 0,0, .8);
+	padding: 15px;
+	border-radius: 50%;
+	margin-top: 30px;
+}
+
+div.col.s4.circulo{
+	padding: 30px 0;
+	min-height: 60%;
+}
+
+.circulo span{
+	width:60%;
+}
+
+.container{
+	width:90%;}
+
+table, th, td {
+		border: none;
+		font-size: 18px;}
+
+#lacantina p{
+	margin-top: 40px;
+	font-size: 24px;
+	line-height: 42px;
+}
+div#contacto {
+	background-color: rgba(3, 78, 25, 0.493);
+}
+.pepito{
+	font-family: 'Lato', sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+}
+.pepito2{
+	background-color: black;
+	color: white;
+	padding: 20px 0;
+}
+a.brand-logo{
+	margin-left: 20px;}
+
+
+div#menu {
+	background-color: rgba(0,0,0,0.8);
+	color:white;
+}
+
+tr{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.12);}
+
+div#galeria-fotos{
+	background-color: rgba(148, 3, 3, 0.7);
+	padding: 5px 0 50px;
+}
+div.galeria{
+	width:95%;
+	margin:0 auto;
+	display: flex;
+	flex-flow:wrap;
+	justify-content: center;
+}
+
+div#galeria-fotos h2{
+	margin: 80px 0 50px;
+}
+
+div.imagen{
+	margin:0px 2px;
+	width: 18%;
+}
+
+div.imagen img{
+	transition: 0.6s;
+	max-width:100%;
+}
+
+div.imagen img:hover{
+	transform: scale(1.2);
+	overflow: hidden;
+}
+
+
+div#inicio,div#lacantina, div#menu, div#galeria-fotos {
+	min-height: 100vh;
+}
+
+div#lacantina, div#menu, div#galeria-fotos,div#contacto {
+	padding: 25px 0;
+}
+
+html{
+	background-image: url(../img/wall.jpg);
+	background-attachment: fixed;
+}
+
+
+div#especialidades{
+	color:black;
+	width:100%;
+	min-height: 50vh;
+	padding: 5px 0 40px;;
+	background-color: rgba(3, 78, 25, 0.493);
+
+}
+
+
+#especialidades img{
+	border-radius: 50%;
+	margin-top: 50px;
+
+}
+
+
+
+
+.row{
+	margin-bottom: 0;
+}
+
+
+iframe{
+	width:100%;
+}
